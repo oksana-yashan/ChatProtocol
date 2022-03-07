@@ -4,8 +4,7 @@
 #include <string>
 #include <sstream>
 #include <map>
-#include <QDebug>
-#include <QString>
+//#include <QDebug>
 
 namespace ProtocolConst
 {

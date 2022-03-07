@@ -1,4 +1,4 @@
-#include "ProtocolType.hpp"
+#include "../include/ProtocolType.hpp"
 
 std::string encode_messages(const std::string& user_name, const std::string& message);
 std::string encode_handshake_request(const std::string& handshake);
