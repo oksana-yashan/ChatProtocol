@@ -4,7 +4,6 @@
 #include <string>
 #include <sstream>
 #include <map>
-//#include <QDebug>
 
 namespace ProtocolConst
 {
@@ -46,3 +45,4 @@ namespace HandleProtocol
 }
 
 #endif // PROTOCOLTYPE_HPP
+

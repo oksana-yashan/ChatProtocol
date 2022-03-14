@@ -9,6 +9,3 @@ target_include_directories(ChatProtocolLib
                            )
 
 
-message(${CMAKE_CURRENT_SOURCE_DIR})
-
-
