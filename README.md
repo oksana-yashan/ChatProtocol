@@ -8,5 +8,5 @@ In file CommonGraph.cmake change 21 line:
 
 PROTOBUF INSTALLATION
 
-$ sudo apt update
+$ sudo apt update<br />
 $ sudo apt install protobuf-compiler
