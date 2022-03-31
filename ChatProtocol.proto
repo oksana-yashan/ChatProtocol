@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Protocol;
+
+message DataPackage 
+{
+  enum Type 
+  {
+    HANDSHAKE = 0;
+    MESSAGE = 1;
+    INFO = 2;
+  }
+  
+  string user_name = 1;
+  string data = 2;
+  Type type = 3;
+  bool is_valid_handshake = 4;
+}
